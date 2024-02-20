@@ -107,10 +107,7 @@ img.main-pic {
 div.section-2 {
     display: flex; 
     flex-direction: row;
-}
-
-div.section-2a {
-    width: 45%;
+    width: 100%;
 }
 
 h2.quote {
@@ -129,10 +126,6 @@ p.quote-text {
     padding-top: 2rem;
 }
 
-div.section-2b {
-    width: 45%;;
-}
-
 form.quote-form {
     width: 100%;
     font-family: 'Averia Serif Libre', serif;
@@ -142,3 +135,32 @@ form.quote-form {
     position: relative;
     left: 5rem;
 }
+
+  div.section-3 {
+    background-color: #02735e;
+    color: white;
+    width: 100%;
+  }
+
+  h3.services-header {
+    font-size: 2rem;
+    width: 100%;
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  h2.services-subheader {
+    font-size: 3rem;
+    width: 100%;
+    padding-left: 4.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  button.services-button {
+    background-color: #012619;
+    color: white;
+    margin-left: 4.5rem;
+    margin-top: 2rem;
+  }
