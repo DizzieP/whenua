@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+div.navbar-flexbox {
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    background-color: #02735e;
+    color: white;
+    font-family: 'Averia Serif Libre', serif;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+a.logo-link {
+    justify-self: start;
+    font-size: 2rem;
+    padding-left: 4.5rem;
+}
+
+div.navbar-list {
+    justify-self: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+a.home-link {
+    padding-right: 2rem;
+}
+
+a.services-link {
+    padding-right: 2rem;
+}
+
+a.about-link {
+    padding-right: 2rem;
+}
+
+a.contact-link {
+    padding-right: 2rem;
+}
+
+button {
+    font-family: 'Averia Serif Libre', serif;
+    justify-self: end;
+    background-color: #D92579;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 4.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+div.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #02735e;
+    color: white;
+    font-family: 'Averia Serif Libre', serif;
+    width: 100%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1.main-header {
+    justify-self: start;
+    align-self: center;
+    padding-left: 4.5rem;
+    font-size: 4rem;
+    padding-top: 4rem;
+    width: 80%;
+}
+
+h3.text-one {
+    display: flex;
+    justify-self: end;
+    align-self: center;
+    flex-wrap: wrap;
+    padding-top: 4rem;
+    padding-right: 4.5rem;
+    width: 40%;
+}
+
+img.main-pic {
+    display: flex;
+    justify-self: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.section-2 {
+    display: flex; 
+    flex-direction: row;
+}
+
+div.section-2a {
+    width: 45%;
+}
+
+h2.quote {
+    width: 100%;
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 3rem;
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+}
+
+p.quote-text {
+    width: 100%;
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 1rem;
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+}
+
+div.section-2b {
+    width: 45%;;
+}
+
+form.quote-form {
+    width: 100%;
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 1rem;
+    justify-self: end;
+    padding-top: 2rem;
+    position: relative;
+    left: 5rem;
+}
