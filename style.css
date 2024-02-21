@@ -26,13 +26,13 @@ div.navbar-flexbox {
 }
 
 a.logo-link {
-    justify-self: start;
+    justify-items: start;
     font-size: 2rem;
     padding-left: 4.5rem;
 }
 
 div.navbar-list {
-    justify-self: center;
+    justify-items: center;
     align-items: center;
     font-size: 1.5rem;
 }
@@ -55,7 +55,7 @@ a.contact-link {
 
 button {
     font-family: 'Averia Serif Libre', serif;
-    justify-self: end;
+    justify-items: end;
     background-color: #D92579;
     color: white;
     font-size: 1.5rem;
@@ -78,7 +78,7 @@ div.main-section {
 }
 
 h1.main-header {
-    justify-self: start;
+    justify-items: start;
     align-self: center;
     padding-left: 4.5rem;
     font-size: 4rem;
@@ -88,7 +88,7 @@ h1.main-header {
 
 h3.text-one {
     display: flex;
-    justify-self: end;
+    justify-items: end;
     align-self: center;
     flex-wrap: wrap;
     padding-top: 4rem;
@@ -98,7 +98,7 @@ h3.text-one {
 
 img.main-pic {
     display: flex;
-    justify-self: center;
+    justify-items: center;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -110,12 +110,17 @@ div.section-2 {
     width: 100%;
 }
 
+div.section-2a {
+  width: 100%;
+}
+
 h2.quote {
     width: 100%;
     font-family: 'Averia Serif Libre', serif;
     font-size: 3rem;
     padding-left: 4.5rem;
     padding-top: 2rem;
+    justify-items: start;
 }
 
 p.quote-text {
@@ -124,16 +129,71 @@ p.quote-text {
     font-size: 1rem;
     padding-left: 4.5rem;
     padding-top: 2rem;
+    justify-items: start;
 }
 
-form.quote-form {
+form {
     width: 100%;
     font-family: 'Averia Serif Libre', serif;
     font-size: 1rem;
-    justify-self: end;
+    justify-items: end;
     padding-top: 2rem;
-    position: relative;
-    left: 5rem;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #012619;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #bfd1d9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #012619;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #02735e;}
+
+.submit {
+    background-color: #012619;
+    color: white;
+    font-family: 'Averia Serif Libre', serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem; 
+}
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid #012619;
 }
 
   div.section-3 {
@@ -164,3 +224,155 @@ form.quote-form {
     margin-left: 4.5rem;
     margin-top: 2rem;
   }
+
+  hr {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  button.services-button {
+    margin-bottom: 2rem;
+  }
+
+  img.lawnmower {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 75px;
+    left: 150px;
+  }
+
+  img.tools {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    left: 50px;
+  }
+
+  img.flowers {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: 75px;
+    right: 50px;
+  }
+
+  img.orchid {
+    width: 200px;
+    height: 300px;
+    position: relative;
+    right: 150px;
+  }
+
+  div.section-4 {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2rem;
+  }
+
+  div.section-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  h2.choose-header {
+    font-size: 3rem;
+    padding-right: 10rem;
+  }
+  
+  p.dedicated {
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  div.section-6 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  div.section-7 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #02735e;
+    color: white;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  h2.customers-header {
+    font-size: 3rem;
+    padding-left: 4.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+
+  p.quote {
+    font-size: 2rem;
+  }
+
+  div.section-7b {
+    flex-direction: column;
+    width: 30%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+  }
+
+  div.section-8 {
+    background-color: #02735e;
+  }
+
+  img.final-pic {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 2rem;
+  }
+
+  div.section-9 {
+    display: flex;
+    background-color: #012619;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: row;
+  }
+
+  div.section-9a {
+    width: 50%;
+    text-align: center;
+  }
+
+  h2.contact-header {
+    font-size: 3rem;
+    padding-left: 4.5rem;
+  }
+
+  p.copyright-whenua {
+    font-size: 1.5rem;
+    padding-left: 4.5rem;
+  }
+
+  div.section-9b {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  h3.address {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
