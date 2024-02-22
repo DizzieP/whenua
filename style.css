@@ -6,6 +6,7 @@
 
 html {
     font-size: 16px;
+    width: fit-content;
 }
 
 div.navbar-flexbox {
@@ -376,3 +377,150 @@ input[type=text] {
     font-size: 1.5rem;
   }
 
+@media only screen and (max-width:768px) {
+
+a.logo-link {
+  padding-left: 2rem;
+  font-size: 1rem;
+}
+
+a.home-link {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+a.services-link {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+a.about-link {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+a.contact-link {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+a.login-link {
+  padding-right: 1rem;
+  font-size: 1rem;
+}
+
+button {
+  margin-right: 2rem;
+}
+
+h1.main-header {
+  padding-left: 2rem; 
+  font-size: 2.5rem;
+}
+
+h3.text-one {
+  font-size: 1rem;
+  padding-right: 2rem;
+}
+
+h2.quote {
+  padding-left: 0rem;
+  text-align: center;
+}
+
+p.quote-text {
+  padding-left: 0rem;
+  text-align: center;
+}
+
+form {
+  padding-left: 2rem;
+}
+
+h2.choose-header {
+  padding-left: 2rem;
+  padding-right: 0rem;
+}
+
+p.dedicated {
+  padding-right: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+div.section-2 {
+  flex-direction: column;
+}
+
+div.section-4 {
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+  img.lawnmower {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  img.tools {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  img.flowers {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  img.orchid {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  div.section-5 {
+    padding-top: 0rem;
+  }
+
+  div.section-7 {
+    flex-direction: column;
+  }
+
+  div.section-7b {
+    width: 100%;
+    text-align: center;
+    padding-top: 0rem;
+  }
+
+  h2.customers-header {
+    padding-left: 0rem;
+  }
+
+  div.section-9 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h2.contact-header {
+    width: 200%;
+    padding-left: 0rem;
+  }
+
+  p.copyright-whenua {
+    width: 200%;
+    padding-left: 0rem;
+    padding-bottom: 2rem;
+  }
+
+  h3.address {
+    width: 200%;
+    text-align: center;
+  }
+}
+  
