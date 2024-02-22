@@ -486,6 +486,7 @@ div.section-4 {
 
   div.section-5 {
     padding-top: 0rem;
+    flex-direction: column;
   }
 
   div.section-7 {
