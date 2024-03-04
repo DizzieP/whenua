@@ -24,53 +24,61 @@ div.navbar-flexbox {
     margin-left: auto;
     justify-items: center;
     align-items: center;
-    flex-wrap: wrap;
+}
+
+div.navbar-list {
+  justify-content: center;
 }
 
 a.logo-link {
     justify-items: start;
     font-size: 2rem;
     padding-left: 4.5rem;
-    flex-wrap: wrap;
-}
-
-div.navbar-list {
-    justify-items: center;
-    align-items: center;
-    font-size: 1.5rem;
-    flex-wrap: wrap;
+    flex-basis: 200px;
+    flex-grow: 0.25;
+    flex-shrink: 1;
 }
 
 a.home-link {
     padding-right: 2rem;
-    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 a.services-link {
     padding-right: 2rem;
-    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 a.about-link {
     padding-right: 2rem;
-    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
 a.contact-link {
     padding-right: 2rem;
-    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-button {
+button.call {
     font-family: 'Averia Serif Libre', serif;
-    justify-items: end;
+    justify-self: end;
     background-color: #D92579;
     color: white;
     font-size: 1.5rem;
     margin-right: 4.5rem; 
     padding-left: 1rem;
     padding-right: 1rem;
-    flex-wrap: wrap;
+    flex-basis: 100px;
+    flex-grow: 0.25;
+    flex-shrink: 1;
 }
 
 div.main-section {
