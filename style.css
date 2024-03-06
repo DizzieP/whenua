@@ -27,6 +27,7 @@ div.navbar-flexbox {
 }
 
 div.navbar-list {
+  display: flex;
   justify-content: center;
 }
 
@@ -65,6 +66,13 @@ a.contact-link {
     flex-basis: 100px;
     flex-grow: 1;
     flex-shrink: 1;
+}
+
+a.login-link {
+  padding-right: 2rem;
+  flex-basis: 100px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 button.call {
@@ -394,6 +402,50 @@ input[type=text] {
   }
 
   @media only screen and (max-width: 768px) {
+    a.logo-link {
+      padding-left: 2rem;
+    }
 
+    img.main-pic {
+      width: 100%;
+    }
 
+    h1.main-header {
+      padding-left: 2rem;
+    }
+
+    h3.text-one {
+      padding-right: 2rem;
+    }
+
+    div.section-4 {
+      flex-direction: column;
+    }
+
+    img.lawnmower {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+
+    img.tools {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+
+    img.flowers {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+
+    img.orchid {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
   }
+
+
+  
