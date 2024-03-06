@@ -406,6 +406,10 @@ input[type=text] {
       padding-left: 2rem;
     }
 
+    button.call {
+      margin-right: 2rem;
+    }
+
     img.main-pic {
       width: 100%;
     }
@@ -444,6 +448,22 @@ input[type=text] {
       width: 100%;
       height: auto;
       position: static;
+    }
+
+    div.section-5 {
+      flex-direction: column;
+    }
+
+    div.section-6 {
+      flex-direction: column;
+    }
+
+    div.section-7 {
+      flex-direction: column;
+    }
+
+    div.section-9 {
+      flex-direction: column;
     }
   }
 
