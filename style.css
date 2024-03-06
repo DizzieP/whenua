@@ -454,16 +454,46 @@ input[type=text] {
       flex-direction: column;
     }
 
+    h2.choose-header {
+      padding-right: 0rem;
+    }
+
     div.section-6 {
       flex-direction: column;
+      justify-content: center;
     }
 
     div.section-7 {
       flex-direction: column;
+      justify-content: center;
+    }
+    
+    div.section-7b {
+      width: 100%;
+    }
+
+    h2.customers-header {
+      padding-left: 0rem;
     }
 
     div.section-9 {
       flex-direction: column;
+    }
+
+    div.section-9a {
+      width: 100%;
+    }
+
+    h2.contact-header {
+      padding-left: 0rem;
+    }
+
+    p.copyright-whenua {
+      padding-left: 0rem;
+    }
+
+    div.section-9b {
+      width: 100%;
     }
   }
 
