@@ -456,11 +456,17 @@ input[type=text] {
 
     h2.choose-header {
       padding-right: 0rem;
+      text-align: center;
+    }
+
+    p.quote {
+      text-align: center;
     }
 
     div.section-6 {
       flex-direction: column;
       justify-content: center;
+      text-align: center;
     }
 
     div.section-7 {
@@ -494,6 +500,11 @@ input[type=text] {
 
     div.section-9b {
       width: 100%;
+      padding-top: 2rem;
+    }
+
+    p.quote-author {
+      text-align: center;
     }
   }
 
