@@ -397,7 +397,7 @@ input[type=text] {
     a.logo-link {
       height: auto;
       padding-left: 0rem;
-      font-size: 3rem;
+      font-size: 2.75rem;
       text-align: center;
     }
 
@@ -467,7 +467,7 @@ input[type=text] {
       justify-items: center;
       align-self: center;
       padding-left: 0rem;
-      font-size: 3rem;
+      font-size: 2.5rem;
       padding-top: 1rem;
       width: 100%;
       text-align: center;
@@ -512,7 +512,7 @@ input[type=text] {
   h2.quote {
       width: 100%;
       font-family: 'Averia Serif Libre', serif;
-      font-size: 2.75rem;
+      font-size: 2.5rem;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
       padding-top: 2rem;
@@ -550,7 +550,7 @@ input[type=text] {
   }
 
   h3.services-header {
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
