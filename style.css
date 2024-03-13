@@ -14,11 +14,6 @@ html, body {
     overflow-x: hidden;
     }
 
-body {
-  padding: 0px;
-  margin: 0px;
-}
-
 div.navbar-flexbox {
     display: inline-flex;
     justify-content: center;
@@ -37,8 +32,12 @@ div.navbar-flexbox {
 }
 
 a.logo-link {
-    font-size: 2rem;
     padding-left: 4.5rem;
+}
+
+img.logo-pic {
+  width: 100px;
+  height: 100px;
 }
 
 div.navbar-list {
@@ -58,37 +57,35 @@ button.call {
     margin-right: 4.5rem; 
     padding-left: 1rem;
     padding-right: 1rem;
+    width: 200px;
 }
 
 div.main-section {
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
     background-color: #02735e;
     color: white;
     font-family: 'Averia Serif Libre', serif;
     width: 100%;
-    height: 300px;
-    margin-right: auto;
-    margin-left: auto;
+    height: 200px;
+    flex-direction: row;
+    position: relative;
+    top: 100px;
 }
 
 h1.main-header {
-    justify-items: start;
-    align-self: center;
+    justify-items: flex-start;
     padding-left: 4.5rem;
     font-size: 4rem;
-    padding-top: 4rem;
     width: 80%;
 }
 
 h3.text-one {
-    display: flex;
     justify-items: flex-end;
     text-align: right;
-    align-self: center;
     flex-wrap: wrap;
-    padding-top: 4rem;
     padding-right: 4.5rem;
     width: 40%;
 }
@@ -478,6 +475,7 @@ input[type=text] {
       margin-right: auto;
       margin-left: auto;
       padding-bottom: 1.5rem;
+      position: static;
   }
   
     h1.main-header {
