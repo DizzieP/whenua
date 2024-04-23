@@ -14,12 +14,15 @@ html, body {
     overflow-x: hidden;
     }
 
-.navbar {
+div.navbar {
     list-style-type: none;
     margin: 0;
-    padding-top: 0;
+    top: 0;
     overflow: hidden;
     background-color: #02735e; 
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 .navbar a {
@@ -45,17 +48,10 @@ a.logo-link {
   float: right;
 }
 
-.navbar a:hover:not(.active) {
-  background-color: #02735e;
+.navbar a.link:hover {
+  color: #d92579;
 }
 
-.navbar a.active {
-  background-color: #02735e;
-}
-
-.navbar .right {
-  float: right;
-}
 
 img.logo-pic {
   width: 100px;
@@ -72,7 +68,9 @@ a.call button {
 }
 
 div.main-section {
-   position: static;
+   position: relative;
+   top: 125px;
+   z-index: 1;
 }
 
 div.first-section {
@@ -405,9 +403,19 @@ input[type=text] {
 
   @media screen and (max-width: 768px) {
 
-    .navbar {
-      background-color: #02735e;
-    }
+    div.navbar {
+      list-style-type: none;
+      margin: 0;
+      top: 0;
+      overflow: hidden;
+      background-color: #02735e; 
+      position: static;
+      width: 100%;
+  }
+
+  div.main-section {
+    position: static;
+ }
 
     .navbar a:not(:first-child) {
       display: none;
@@ -453,9 +461,9 @@ input[type=text] {
     float: none;
   }
 
-    div.main-section {
-      position: static;
-    }
+  div.main-section {
+    position: static;
+ }
 
     div.first-section {
       display: flex;
