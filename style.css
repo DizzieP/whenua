@@ -14,20 +14,16 @@ html, body {
     overflow-x: hidden;
     }
 
-ul.navbar {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding-top: 0;
     overflow: hidden;
-    background-color: #02735e;
-    padding-left: 4.5rem;
+    background-color: #02735e; 
 }
 
-ul.navbar li {
+.navbar a {
   float: left;
-}
-
-ul.navbar li a {
   display: block;
   color: white;
   text-align: center;
@@ -35,24 +31,29 @@ ul.navbar li a {
   text-decoration: none;
 }
 
-ul.navbar li a.link {
+a.logo-link {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.navbar a.link {
   padding-top: 50px;
 }
 
-ul.navbar li a.call {
+.navbar a.call {
   padding-top: 45px;
   float: right;
 }
 
-ul.navbar li a:hover:not(.active) {
+.navbar a:hover:not(.active) {
   background-color: #02735e;
 }
 
-ul.navbar li a.active {
+.navbar a.active {
   background-color: #02735e;
 }
 
-ul.navbar li.right {
+.navbar .right {
   float: right;
 }
 
@@ -63,7 +64,6 @@ img.logo-pic {
 
 a.call button {
     font-family: 'Averia Serif Libre', serif;
-    justify-items: flex-end;
     background-color: #D92579;
     color: white;
     font-size: 1.25rem; 
@@ -399,25 +399,57 @@ input[type=text] {
     font-size: 1.5rem;
   }
 
+  .navbar .icon {
+    display: none;
+  }
+
   @media screen and (max-width: 768px) {
 
-    ul.navbar li.right, ul.navbar li {float: none;}
+    .navbar {
+      background-color: #02735e;
+    }
+
+    .navbar a:not(:first-child) {
+      display: none;
+    }
     
-    ul.navbar {
-      margin-left: 0rem;
-      padding-left: 0rem;
+    .navbar a.icon {
+      float: right;
+      display: block;
+      padding-right: 2rem;
+      padding-top: 2rem;
+      font-size: 2rem;
+      color: white;
+    }
+
+    .navbar.responsive {position: relative;}
+    .navbar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .navbar.responsive a:not(:last-child) {
+      float: none;
+      display: block;
+      text-align: center;
+      padding-bottom: 1rem;
+      font-size: 1.25rem;
     }
 
   a.logo-link {
+    padding-top: 0rem;
     padding-left: 0rem;
+    padding-right: 0rem;
+    margin-bottom: 1rem;
   }
 
-  ul.navbar li a.link {
-    padding-top: 14px;
+  .navbar a.link {
+    padding-top: 0px;
   }
   
-  ul.navbar li a.call {
-    padding-top: 14px;
+  .navbar a.call {
+    padding-top: 1rem;
     float: none;
   }
 
@@ -567,26 +599,25 @@ input[type=text] {
     img.lawnmower {
       width: 100%;
       height: auto;
-      border-top: 3px solid #d92579;
-      border-bottom: 3px solid #d92579;
+      
     }
 
     img.tools {
       width: 100%;
       height: auto;
-      border-bottom: 3px solid #d92579;
+      
     }
 
     img.flowers {
       width: 100%;
       height: auto;
-      border-bottom: 3px solid #d92579;
+     
     }
 
     img.orchid {
       width: 100%;
       height: auto;
-      border-bottom: 3px solid #d92579;
+      
     }
 
     div.section-5 {
@@ -598,7 +629,7 @@ input[type=text] {
 
     hr {
       width: 100%;
-      border-top: 3px solid black;
+     
     }
 
     h2.choose-header {

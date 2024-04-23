@@ -10,15 +10,17 @@
 </head>
 <body>
     <div class="main">
-    <ul class="navbar" id="myTopnav">
-        <li><a href="#" class="logo-link active"><img src="Whenua Ataahua.png" class="logo-pic"/></a></li>
-        <li><a href="#" class="link">Home</a></li>
-        <li><a href="#" class="link">Services</a></li>
-        <li><a href="#" class="link">About</a></li>
-        <li><a href="#" class="link">Contact</a></li>
-        <li><a href="#" class="link"><i class="fa-solid fa-user"></i>&nbsp;Log In</a></li>
-        <li><a href="#" class= "call"><button>Call Today</button></a></li>
-    </ul>
+    <div class="navbar" id="myTopnav">
+        <a href="#" class="logo-link active"><img src="Whenua Ataahua.png" class="logo-pic"/></a>
+        <a href="#" class="link">Home</a>
+        <a href="#" class="link">Services</a>
+        <a href="#" class="link">About</a>
+        <a href="#" class="link">Contact</a>
+        <a href="#" class="link"><i class="fa-solid fa-user"></i>&nbsp;Log In</a>
+        <a href="#" class= "call"><button>Call Today</button></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
     </div>
     <div class="main-section">
     <div class="first-section">
@@ -107,6 +109,16 @@
         </div>
         </div>
         </div>
-    </div>      
+    </div> 
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "navbar") {
+            x.className += " responsive";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>     
 </body>
 </html>
